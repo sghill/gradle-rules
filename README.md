@@ -3,6 +3,8 @@ Reusable Gradle [Component Metadata Rules][rules].
 
 [rules]: https://docs.gradle.org/current/userguide/component_metadata_rules.html
 
+![GitHub Actions CI](https://github.com/sghill/gradle-rules/actions/workflows/ci.yaml/badge.svg)
+
 ## RemoveClassifierFromDependency
 
 Gradle has a funny relationship with maven classifiers.
