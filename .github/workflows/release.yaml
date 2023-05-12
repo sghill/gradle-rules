@@ -25,6 +25,6 @@ jobs:
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle.kts') }}
           restore-keys: ${{ runner.os }}-gradle
       - name: Publish
-        run: ./gradlew clean publish
+        run: ./gradlew -s -Prelease.useLastTag=true clean publish final
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

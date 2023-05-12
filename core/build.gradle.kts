@@ -1,6 +1,7 @@
 plugins {
     `java-library`
     `maven-publish`
+    id("com.netflix.nebula.release")
 }
 
 group = "net.sghill.gradle"
@@ -25,7 +26,7 @@ java {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            pom { 
+            pom {
                 url.set("https://github.com/sghill/gradle-rules")
                 licenses {
                     license {
