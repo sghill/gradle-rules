@@ -9,7 +9,7 @@ dependencyResolutionManagement {
             val junit5 = version("junit5") {
                 strictly("[5.8.0, 6.0.0[")
             }
-            library("gradle-api", "dev.gradleplugins:gradle-api:4.9")
+            library("gradle-api", "dev.gradleplugins:gradle-api:5.0")
             library("assertj-core", "org.assertj", "assertj-core").version {
                 strictly("[3.0.0, 4.0.0[")
             }

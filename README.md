@@ -1,5 +1,6 @@
 # gradle-rules
 Reusable Gradle [Component Metadata Rules][rules].
+Requires Gradle 5.0 (released November 26, 2018) or later.
 
 [rules]: https://docs.gradle.org/current/userguide/component_metadata_rules.html
 
@@ -67,3 +68,6 @@ org.yaml:snakeyaml -> 1.30
 ```
 
 [task]: https://docs.gradle.org/current/userguide/viewing_debugging_dependencies.html#dependency_insights
+
+
+## DowngradeDependencyToPrefer
